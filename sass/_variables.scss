@@ -133,7 +133,7 @@ $buttons: (".button, a.button, button, [type=submit], [type=reset], [type=button
 $forms: (
   "[type=color], [type=date], [type=datetime], [type=datetime-local], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=url], [type=week], [type=time], select, textarea"
 );
-$input-background: #f2f2f2;
+$input-background: $color-white;
 $placeholder: darken($accent-color, 20%);
 $form-border: 1px solid $border-color;
 $form-border-hover: 1px solid darken($border-color, 10%);
