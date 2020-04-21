@@ -117,3 +117,18 @@ footer {
 .search-submit {
     padding: 1rem 2rem;
 }
+
+// Testimonials
+.testimonial-block {
+    background: $color-grey;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    p {
+        line-height: 1.2;
+        font-style: italic;
+    }
+    h4 {
+        border-left: 2px solid $color-secondary;
+        padding-left: 1rem;
+    }
+}
