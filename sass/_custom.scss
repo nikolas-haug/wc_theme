@@ -1,0 +1,114 @@
+/**
+*
+* THEME SPECIFIC COMPONENTS
+*
+*/
+body.dimmed {
+    background: rgba(0, 0, 0, 0.85);
+}
+
+.main-header {
+    padding-top: 5rem;
+    @media screen and (max-width: 480px) {
+        padding-top: 1rem;
+    }
+}
+
+h3,h4 {
+    font-weight: 300;
+}
+
+.banner {
+    display: flex;
+}
+
+.site-logo {
+    width: 15rem;
+    height: 10rem;;
+}
+
+.title-tag {
+    font-size: 4.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    a {
+        text-decoration: none;
+        letter-spacing: 1.2px;
+        transition: all .3s;
+    }
+    @media screen and (max-width: $small) {
+        font-size: 3.5rem;
+    }
+}
+
+.sub-title {
+    margin-bottom: 4rem;
+}
+
+main {
+    border-top: 1px solid $color-grey;
+    padding-top: 2.5rem;
+}
+
+footer {
+    border-top: 1px solid $color-grey;
+    margin-top: 1.5rem;
+}
+
+.container--booking {
+    position: relative;
+    margin-bottom: 2rem;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+    }
+}
+
+.btn--booking {
+    position: absolute;
+    bottom: 1rem;
+    left: 2rem;
+    z-index: 99;
+}
+
+// Sidebar and widgets
+.sidebar-item {
+    background: $color-grey;
+    padding: 1rem 1.5rem;
+    margin: 1rem 0;
+    border-radius: .3rem;
+    cursor: pointer;
+    transition: all .3s;
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    }
+}
+
+// Gutenberg styles
+.wp-block-image figure {
+    margin-top: 2rem;
+  }
+  
+  @media (max-width: 650px) {
+    .wp-block-image .alignright {
+      float: none;
+      margin: 0;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+// Contact form
+.wpcf7-submit {
+    padding: 1.5rem 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+}

@@ -1,0 +1,40 @@
+/*! 
+
+    Theme Name: Watercress
+    Author: Niko
+    Author URI: https://nikolashaug.com
+    Description: A Portfolio Theme
+    Version: 1.0
+
+*/
+
+//====================================================
+// CONFIG
+//====================================================
+
+@import "sass/variables";
+@import "sass/mixins";
+
+
+//====================================================
+// RESET
+//====================================================
+
+@import "sass/normalize";
+@import "sass/reset";
+@import "sass/base";
+
+
+//====================================================
+// COMPONENTS
+//====================================================
+
+@import "sass/components";
+@import "sass/layout";
+@import "sass/utilities";
+
+//====================================================
+// CUSTOM STYLES
+//====================================================
+
+@import "sass/custom";
