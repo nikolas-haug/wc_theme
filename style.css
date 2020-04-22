@@ -1334,6 +1334,11 @@ body.dimmed {
 h3, h4 {
   font-weight: 300; }
 
+ul {
+  list-style: square;
+  margin: 0 0 1.6rem 1.6rem;
+  padding-left: 1.5rem; }
+
 .banner {
   display: flex; }
 
@@ -1396,11 +1401,12 @@ footer {
 .wp-block-image figure {
   margin-top: 2rem; }
 
-@media (max-width: 650px) {
-  .wp-block-image .alignright {
+@media (max-width: 535px) {
+  .wp-block-image figure {
+    width: 100%;
     float: none;
     margin: 0; }
-    .wp-block-image .alignright img {
+    .wp-block-image figure img {
       width: 100%;
       height: auto; } }
 
