@@ -34,7 +34,7 @@
                         <?php $testimonial_posts = new WP_Query($args); ?>
                         <?php while($testimonial_posts->have_posts()) : $testimonial_posts->the_post(); ?>
                         <?php $meta = get_post_meta( $post->ID, 'your_fields', true ); ?>
-                            <div class="col-med-6 col-12">
+                            <div class="col-med-6 col-12 margin-top margin-bottom">
                                 <div class="testimonial-block">
                                     <?php the_content( ); ?>
                                     <h4><?php echo esc_html($meta['text']); ?></h4>
