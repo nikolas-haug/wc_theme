@@ -2,9 +2,9 @@
 
             <main>
                 <!-- Hero image -->
-                <div class="container-med pad-xs-0">
+                <div class="container-med">
                     <div class="row">
-                        <div class="col-lg-12 pad-xs-0">
+                        <div class="col-lg-12">
                            <h2>Search Results:</h2>
                         </div>
                     </div>

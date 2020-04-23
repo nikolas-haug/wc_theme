@@ -79,8 +79,7 @@ function my_custom_background_cb() {
     <!-- Add custom style placement here -->
     <style<?php echo $type_attr; ?> id="custom-background-css">
         body.custom-background { <?php echo trim( $style ); ?> }
-        .menu-toggle { background: <?php echo "#$color;" ?> }
-        .menu-toggle:focus, .menu-toggle:active, .menu-toggle:hover { background: <?php echo "#$color;" ?>  }
+        .slider-menu { background: <?php echo "#$color;" ?> }
     </style>
 
 <?php 
