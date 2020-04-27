@@ -11,9 +11,11 @@ function watercress_enqueue() {
     $ver = WATERCRESS_DEV_MODE ? time() : THEME_VERSION;
 
     // STYLES
+    wp_register_style( 'font-awesome', $uri . '/css/font-awesome.css', [], $ver );
     wp_register_style( 'google-fonts', 'https://fonts.googleapis.com/css2?family=Lato&family=Zilla+Slab:ital,wght@0,400;0,500;1,300;1,400;1,600&display=swap', [], $ver );
     wp_register_style( 'main-style', get_stylesheet_uri(  ), [], $ver );
 
+    wp_enqueue_style( 'font-awesome' );
     wp_enqueue_style( 'google-fonts' );
     wp_enqueue_style( 'main-style' );
 
