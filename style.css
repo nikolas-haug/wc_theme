@@ -726,20 +726,46 @@ textarea.is-success:active {
 */
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: .5rem;
+  padding-left: .5rem;
   margin-right: auto;
   margin-left: auto; }
 
 .container-full {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: .5rem;
+  padding-left: .5rem;
   margin-right: auto;
   margin-left: auto; }
 
 .container-stretch {
   width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: .5rem;
+  padding-left: .5rem; }
+
+.container-sm {
+  max-width: calc(480px * 0.95);
+  width: 100%;
+  padding-right: .5rem;
+  padding-left: .5rem;
+  margin-right: auto;
+  margin-left: auto; }
+
+.container-med {
+  max-width: calc(850px * 0.95);
+  width: 100%;
+  padding-right: .5rem;
+  padding-left: .5rem;
+  margin-right: auto;
+  margin-left: auto; }
+
+.container-lg {
+  max-width: calc(1070px * 0.95);
+  width: 100%;
+  padding-right: .5rem;
+  padding-left: .5rem;
   margin-right: auto;
   margin-left: auto; }
 
@@ -881,13 +907,6 @@ textarea.is-success:active {
   margin-left: 100%; }
 
 @media (min-width: 480px) {
-  .container-sm {
-    max-width: calc(480px * 0.95);
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto; }
   .col-sm {
     flex-grow: 1;
     flex-basis: auto;
@@ -964,13 +983,6 @@ textarea.is-success:active {
     justify-content: space-around; } }
 
 @media (min-width: 850px) {
-  .container-med {
-    max-width: calc(850px * 0.95);
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto; }
   .col-med {
     flex-grow: 1;
     flex-basis: auto;
@@ -1047,13 +1059,6 @@ textarea.is-success:active {
     justify-content: space-around; } }
 
 @media (min-width: 1070px) {
-  .container-lg {
-    max-width: calc(1070px * 0.95);
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto; }
   .col-lg {
     flex-grow: 1;
     flex-basis: auto;
